@@ -54,7 +54,7 @@ function DOM_i(char, speed) {
 
 // 1. init DOM
 //const GET = getGET();
-var GET = { 0: "stay      foolish", 1: "stay      curious", 2: "节日快乐!", time2: "20000" };
+var GET = { 0: "stay      foolish", 1: "stay      curious", 2: "节日快乐!", time2: "8000" };
 var ps = [];
 var settings = {
     time: 5000,
