@@ -1,4 +1,15 @@
 "use strict";
+var audio = document.querySelector('#audio');
+        var line = document.querySelector('.line');
+        document.querySelector('.play').addEventListener('click',function(){
+            line.classList.toggle('hide');
+            if(line.classList.contains('hide')){
+                audio.play()
+            }else{
+                audio.pause()
+            }
+        })
+
 
 //random functions
 function rndint(x, y) {
